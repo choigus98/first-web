@@ -53,9 +53,47 @@ body{
 .second-mid{
     display: flex;
     justify-content: center;
+    margin: 0 auto;
 }
 .second-mid img{
     width: 400px;
     height: 400px;
-    margin: 5px;
+    margin: 15px;
+}
+.enfp{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: x-large;
+    font-weight: bold;
+}
+.nametag{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: 'Lobster';
+}
+.nametag h2{
+    width: 430px;
+    height: 20px;
+    text-align: center;
+    color: gray;
+    display: flex;
+    justify-content: center;
+}
+.enfp p{
+    margin-left: 30px;
+    line-height: 60px;
+}
+.logo img{
+    width: 600px;
+    height: 260px;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+}
+.life img{
+    width: 460px;
+    height: 720px;
+    margin: 20px;
 }
